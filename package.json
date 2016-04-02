@@ -1,0 +1,15 @@
+{
+  "author": "elsehow",
+  "license": "BSD-3-Clause",
+  "main": "src/index.js",
+  "watch": {
+    "test": "{src,test}/*.js"
+  },
+  "scripts": {
+    "test": "node test/*.js",
+    "watch": "npm-watch"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.1.3"
+  }
+}
