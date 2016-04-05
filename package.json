@@ -2,18 +2,28 @@
   "author": "elsehow",
   "license": "BSD-3-Clause",
   "main": "src/index.js",
+  "name": "swarmkvd",
+  "bin": {
+    "swarmkvd":"./src/cli.js"
+  },
   "watch": {
     "test": "{src,test}/*.js"
   },
   "scripts": {
-    "test": "node test/*.js",
+    "test": "./src/cli.js start keys.json",
     "watch": "npm-watch"
   },
   "devDependencies": {
     "npm-watch": "^0.1.3"
   },
   "dependencies": {
+    "chloride": "^2.1.1",
+    "dnode": "^1.2.2",
     "electron-spawn": "^4.1.1",
-    "minimist": "^1.2.0"
+    "hyperkv": "^1.6.0",
+    "level": "^1.4.0",
+    "minimist": "^1.2.0",
+    "subleveldown": "^2.1.0",
+    "swarmlog": "^1.4.0"
   }
 }
