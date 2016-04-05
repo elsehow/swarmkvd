@@ -27,7 +27,7 @@
     "swarmlog": "^1.4.0"
   },
   "description": "run your own distributed key-value store!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "directories": {
     "test": "test"
   },

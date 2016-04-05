@@ -9,6 +9,10 @@ like bittorrent sync, but for a kvstore
     npm install -g electron-prebuilt
     npm install -g swarmkvd
 
+now generate some keys
+
+    node -pe "JSON.stringify(require('ssb-keys').generate())" > keys.json
+
 ## usage
 
     swarmkvd start keys.json 
