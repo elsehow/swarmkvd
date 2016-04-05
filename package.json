@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "name": "swarmkvd",
   "bin": {
-    "swarmkvd":"./src/cli.js"
+    "swarmkvd": "./src/cli.js"
   },
   "watch": {
     "test": "{src,test}/*.js"
@@ -25,5 +25,24 @@
     "minimist": "^1.2.0",
     "subleveldown": "^2.1.0",
     "swarmlog": "^1.4.0"
-  }
+  },
+  "description": "run your own distributed key-value store!",
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsehow/swarmkvd.git"
+  },
+  "keywords": [
+    "swarmkv",
+    "hyperlog",
+    "swarmlog",
+    "kv"
+  ],
+  "bugs": {
+    "url": "https://github.com/elsehow/swarmkvd/issues"
+  },
+  "homepage": "https://github.com/elsehow/swarmkvd#readme"
 }
